@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="AcmeZone" />
+    <version value="2" />
+    <list>
+        <mapping class="com.xayah.acmezone.Class.ClassBilibiliAccount" />
+        <mapping class="com.xayah.acmezone.Class.ClassTieBaAccount" />
+        <mapping class="com.xayah.acmezone.Class.ClassTieBaForum" />
+
+    </list>
+</litepal>

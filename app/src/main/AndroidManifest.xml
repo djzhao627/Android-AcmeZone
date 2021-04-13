@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xayah.acmezone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AcmeZone"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.ActivityTieBaDetail" />
+        <activity android:name=".Activity.ActivityBilibiliSettingsHelp" />
+        <activity android:name=".Activity.ActivityBilibiliMainHelp" />
+        <activity android:name=".Activity.ActivityTieBaMain" />
+        <activity android:name=".Activity.ActivityTieBaLoginByParameter" />
+        <activity android:name=".Activity.ActivityTieBaLoginByChrome" />
+        <activity android:name=".Activity.ActivityTieBaLogin" />
+        <activity android:name=".Activity.ActivityBilibiliMainSettings" />
+        <activity android:name=".Activity.ActivityBilibiliLoginByParameter" />
+        <activity android:name=".Activity.ActivityBilibiliLoginByChrome" />
+        <activity android:name=".Activity.ActivityBilibiliLogin" />
+        <activity android:name=".Activity.ActivityBilibiliMain" />
+        <activity android:name=".Activity.ActivityAboutApp" />
+        <activity android:name=".Activity.ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

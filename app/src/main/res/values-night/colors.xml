@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#474747</color>
+    <color name="trueWhite">#FFF</color>
+
+    <color name="mGreen">#4aca6d</color>
+    <color name="mGreen_WeChat">#006600</color>
+    <color name="mPink">#B73460</color>
+    <color name="mRed">#E62D2B</color>
+    <color name="mOrange">#FF5C00</color>
+    <color name="mBlue">#2B81FA</color>
+    <color name="mGrayDark">#F6F6F6</color>
+    <color name="mGrayLight">#636363</color>
+    <color name="mGrayBackground">#212121</color>
+
+
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+    <color name="mPurple">#E090F3</color>
+
+</resources>

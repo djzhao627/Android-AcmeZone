@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="特别感谢">
+        <menu>
+            <item
+                android:id="@+id/item_thanks_chamaoyun"
+                android:icon="@drawable/ic_chamaoyun"
+                android:title="茶猫云 (提供云计算服务)"/>
+
+            <item
+                android:id="@+id/item_thanks_Github"
+                android:icon="@drawable/ic_github"
+                android:title="GitHub"/>
+        </menu>
+    </item>
+    <group
+        android:id="@+id/group_fore"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_update"
+            android:icon="@drawable/bilibili_ic_levelup"
+            android:title="版本前瞻"
+            />
+
+        <item
+            android:id="@+id/item_donate"
+            android:icon="@drawable/ic_donate"
+            android:title="捐赠作者"/>
+    </group>
+
+
+    <group
+        android:id="@+id/group_about"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_about_wechat"
+            android:icon="@drawable/tieba_ic_help"
+            android:title="微信交流"/>
+    </group>
+</menu>
