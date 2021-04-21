@@ -126,7 +126,7 @@ class ActivityMain : AppCompatActivity() {
                     val mView: View = LayoutInflater.from(this)
                         .inflate(R.layout.alertdialog_imageview, null, false)
                     val imageView: NetImageView = mView.findViewById(R.id.alertdialog_imageView)
-                    imageView.setImageURL("http://www.acmezone.tk/images/group.png")
+                    imageView.setImageURL("http://www.acmezone.tk/acmezone/images/group.png")
                     val builder = AlertDialog.Builder(mContext)
                         .setView(mView)
                         .setCancelable(true)
