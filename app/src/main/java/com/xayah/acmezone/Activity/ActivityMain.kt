@@ -71,13 +71,8 @@ class ActivityMain : AppCompatActivity() {
 
         main_navigationView.setNavigationItemSelectedListener {
             when (it.itemId) {
-                R.id.item_thanks_chamaoyun -> {
-                    val uri = Uri.parse("https://www.chamaoyun.com/")
-                    val intent = Intent(Intent.ACTION_VIEW, uri)
-                    startActivity(intent)
-                }
                 R.id.item_thanks_Github -> {
-                    val uri = Uri.parse("https://github.com/")
+                    val uri = Uri.parse("https://github.com/XayahSuSuSu/Android-AcmeZone")
                     val intent = Intent(Intent.ACTION_VIEW, uri)
                     startActivity(intent)
                 }
@@ -120,7 +115,7 @@ class ActivityMain : AppCompatActivity() {
                     val mView: View = LayoutInflater.from(this)
                         .inflate(R.layout.alertdialog_imageview, null, false)
                     val imageView: NetImageView = mView.findViewById(R.id.alertdialog_imageView)
-                    imageView.setImageURL("http://www.acmezone.tk/images/donate.png")
+                    imageView.setImageURL("http://www.acmezone.tk/acmezone/images/donate.png")
                     val builder = AlertDialog.Builder(mContext)
                         .setView(mView)
                         .setCancelable(true)
@@ -131,7 +126,7 @@ class ActivityMain : AppCompatActivity() {
                     val mView: View = LayoutInflater.from(this)
                         .inflate(R.layout.alertdialog_imageview, null, false)
                     val imageView: NetImageView = mView.findViewById(R.id.alertdialog_imageView)
-                    imageView.setImageURL("http://www.acmezone.tk/images/VX.png")
+                    imageView.setImageURL("http://www.acmezone.tk/images/group.png")
                     val builder = AlertDialog.Builder(mContext)
                         .setView(mView)
                         .setCancelable(true)

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:title="特别感谢">
-        <menu>
-            <item
-                android:id="@+id/item_thanks_chamaoyun"
-                android:icon="@drawable/ic_chamaoyun"
-                android:title="茶猫云 (提供云计算服务)"/>
+    <group
+        android:id="@+id/group_github"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_thanks_Github"
+            android:icon="@drawable/ic_github"
+            android:title="GitHub"/>
+    </group>
 
-            <item
-                android:id="@+id/item_thanks_Github"
-                android:icon="@drawable/ic_github"
-                android:title="GitHub"/>
-        </menu>
-    </item>
     <group
         android:id="@+id/group_fore"
         android:checkableBehavior="single">
