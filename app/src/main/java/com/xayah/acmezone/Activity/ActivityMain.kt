@@ -51,7 +51,7 @@ class ActivityMain : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         LitePal.initialize(this)
         mContext = this
-        checkVersion()
+        // checkVersion()
         main_coordinatorLayout = findViewById(R.id.main_coordinatorLayout)
 //        Thread{
 //            LitePalUtil.SaveBilibiliAccount(
